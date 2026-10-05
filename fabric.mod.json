@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "bustikdupe",
+  "version": "${version}",
+  "name": "BustikDupe",
+  "description": "Simple /dupe command for server testing. Available to every player.",
+  "authors": ["Bustik"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "ru.bustik.dupe.BustikDupe"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
